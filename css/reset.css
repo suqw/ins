@@ -14,7 +14,7 @@ table, tbody, tfoot, thead, tr, th, td,
 h1,h2,h3,h4,h5,h6,em,i{
     font-weight: 100;
     font-style: normal; outline: 0;
-    margin:0;padding:0; border:0; font-family: '微软雅黑','SimHei','宋体';
+    margin:0;padding:0; border:0; font-family: 'SimHei','微软雅黑','宋体';
 }
 
 ul,ol,li {
