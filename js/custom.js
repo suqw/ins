@@ -106,3 +106,4 @@ var customScripts = {
 $('document').ready(function () {
     customScripts.init();
 });
+
