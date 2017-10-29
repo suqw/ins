@@ -3,6 +3,10 @@
 var customScripts = {
     profile: function () {
         // portfolio
+        $("a[href='#top']").click(function () {
+            $("html, body").animate({ scrollTop: 0 }, "slow");
+            return false;
+        });
         if ($('.isotopeWrapper').length) {
             var $container = $('.isotopeWrapper');
             var $resize = $('.isotopeWrapper').attr('id');
@@ -14,10 +18,7 @@ var customScripts = {
                     columnWidth: $container.width() / $resize
                 }
             });
-            $("a[href='#top']").click(function () {
-                $("html, body").animate({ scrollTop: 0 }, "slow");
-                return false;
-            });
+            
             $('.navbar-inverse').on('click', 'li a', function () {
                 $('.navbar-inverse .in').addClass('collapse').removeClass('in').css('height', '1px');
             });
